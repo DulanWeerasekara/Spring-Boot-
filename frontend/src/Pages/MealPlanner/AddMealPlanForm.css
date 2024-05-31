@@ -1,0 +1,43 @@
+.add-meal-plan-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-meal-plan-form h2 {
+    margin-bottom: 20px;
+}
+
+.add-meal-plan-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.add-meal-plan-form form label {
+    font-weight: bold;
+}
+
+.add-meal-plan-form form input[type="text"],
+.add-meal-plan-form form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-meal-plan-form form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-meal-plan-form form button:hover {
+    background-color: #0056b3;
+}
